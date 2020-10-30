@@ -1,0 +1,147 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jason Arias - Resume/Portfolio website</title>
+
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="The Curriculum Vitae of Jason Arias."/>
+<meta charset="UTF-8"> 
+
+<link type="text/css" rel="stylesheet" href="{% static 'css/style.css' %}">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body id="top">
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		<div id="headshot" class="quickFade">
+			<img src="{% static 'images/headshot.jpg' %}" alt="Jason Arias" />
+		</div>
+		
+		<div id="name">
+			<h1 class="quickFade delayTwo">Jason Arias</h1>
+			<h2 class="quickFade delayThree">Software Developer</h2>
+		</div>
+		
+		<div id="contactDetails" class="quickFade delayFour">
+			<ul>
+				<li>: jasonarias123@gmail.com</li>
+				<li>: <a href="https://www.linkedin.com/in/jason-arias-7a66a51b5/">https://www.linkedin.com/in/jason-arias-7a66a51b5/</a></li>
+				<li>: <a href="https://github.com/ariasj97">https://github.com/ariasj97</a></li>
+				<li>: 973-931-7364</li>
+				<li>: Clifton, NJ</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="mainArea" class="quickFade delayFive">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Summary</h1>
+				</div>
+				
+				<div class="sectionContent">
+					<p>Motivated and driven graduate from William Paterson University looking for an entry level Software Developer role. I possess a deep understanding of object oriented programming in C++ and highly effective in Python and Java. Some of my exceptional qualities include communication, team work, and problem solving. I am also proficient at implementing algorithms and web frameworks into code. I as well have retain the ability of working with deadlines and have experience working in groups on short term and long term projects.</p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+		
+		<br/>
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Key Skills</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="Skills">
+					<li>C++</li>
+					<li>Python</li>
+					<li>Java</li>
+					<li>Unix Operating Systems</li>
+					<li>Algorithms</li>
+					<li>Bilingual</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+		<br/>
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Projects</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>C++ Parser</h2>
+					<li><a href="https://github.com/ariasj97/Simple-c-parser">https://github.com/ariasj97/Simple-c-parser</a></li>
+					<li>Uses C++</li>
+					<li>A program that analyzes a string of code inputted by the user.</li>
+					<li>The output is the proper token/type each part of the string it belongs to.</li>
+				</article>
+
+				<br/>
+				
+				<article>
+					<h2>Car AI Game</h2>
+					<li><a href="https://github.com/ariasj97/car-AI">https://github.com/ariasj97/car-AI</a></li>
+					<li>Worked on in a group of 3 people.</li>
+					<li>Written in Python and implements the NEAT algorithm.</li>
+					<li>A car game that we created and successfully implemented Neural Networks to beat the game after a couple of tries.</li>
+				</article>
+
+				<br/>
+
+				<article>
+					<h2>Resume/Portfolio Website</h2>
+					<li>Written in Python and uses HTML and CSS.</li>
+					<li>This project uses the Django framework.</li>
+					<li>A simple static website that displays my resume along side my portfolio.</li>
+					<li>All of the code was pushed and integrated to a free webhost. </li>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		<br/>
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Education</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>William Paterson University</h2>
+					<p class="subDetails">September 2016 - August 2020</p>
+					<dt>Bachelor of Science in Computer Science</dt>
+				</article>
+
+		<br/>
+
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+	</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3753241-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>
